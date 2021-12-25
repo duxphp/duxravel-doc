@@ -1,6 +1,5 @@
 - [引导](/guide/)
-- 开发
-  - [开发说明](/dev/base)
+- 应用开发
   - [第一个应用](/dev/)
   - [后台控制器 (admin 层)](/dev/admin)
   - [数据模型 (model 层)](/dev/model)
@@ -8,7 +7,13 @@
   - [Api控制器(api 层)](/dev/api)
   - [常用工具类](/dev/util)
   - [常用函数](/dev/function)
+- UI组件
+  - [表格组件](/ui/)
+  - [表格列](/ui/col)
+  - [表格筛选](/ui/filter)
+  - [表格操作](/ui/action)
 - 指南
+  - [开发说明](/dev/base)
   - [项目部署](/guide/helper)
   - [应用打包](/guide/package)
 
