@@ -1,4 +1,5 @@
 - [引导](/guide/)
+
 - 应用开发
   - [第一个应用](/dev/)
   - [后台控制器 (admin 层)](/dev/admin)
@@ -7,11 +8,17 @@
   - [Api控制器(api 层)](/dev/api)
   - [常用工具类](/dev/util)
   - [常用函数](/dev/function)
+
 - UI组件
-  - [表格组件](/ui/)
-  - [表格列](/ui/col)
-  - [表格筛选](/ui/filter)
-  - [表格操作](/ui/action)
+  - [表格组件](/table/)
+  - [表格列](/table/col)
+  - [表格筛选](/table/filter)
+  - [表格操作](/table/action)
+  - [表格批处理](/table/batch)
+  - [表单组件](/form/)
+  - [表单布局](/form/layout)
+  - [表单元素](/form/el)
+
 - 指南
   - [开发说明](/dev/base)
   - [项目部署](/guide/helper)
