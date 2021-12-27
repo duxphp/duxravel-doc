@@ -16,11 +16,14 @@ duxravel，名称由 dux 与 laravel 组合而来，是一款以 laravel 框架�
 请先确保预安装  PHP 7.4+ 、 Composer 2.*与 Mysql 5.6+ 环境
 
 ```bash
-// 创建站点目录
+// 创建项目目录
 mkdir project && cd project
 
-// 在线下载系统
-composer create-project duxphp/duxravel
+// 通过 duxravel 创建项目 (稳定版)
+composer create-project duxphp/duxravel ./
+
+// 通过 duxravel 创建项目 (dev版)
+composer create-project duxphp/duxravel ./ --stability=dev
 ```
 
 ## 本地预览
