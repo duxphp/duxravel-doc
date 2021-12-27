@@ -9,8 +9,10 @@ Article 提供了基本的文章管理功能，该应用依赖于 `duxravel-cms`
 composer require duxphp/duxravel-article
 // 开发版
 composer require duxphp/duxravel-article dev-main
+```
 
-// 如果数据未安装成功请手动执行
+如果自动安装失败请手动安装数据
+```bash
 php artisan app:install duxphp/duxravel-article
 ```
 
