@@ -10,7 +10,7 @@ composer require duxphp/duxravel-cms
 // 开发版
 composer require duxphp/duxravel-cms dev-main
 
-// 执行安装
+// 如果数据等未安装成功请手动执行
 php artisan app:install duxphp/duxravel-cms
 ```
 

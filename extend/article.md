@@ -10,8 +10,8 @@ composer require duxphp/duxravel-article
 // 开发版
 composer require duxphp/duxravel-article dev-main
 
-// 执行安装
-php artisan app:install duxphp/duxravel-cms
+// 如果数据未安装成功请手动执行
+php artisan app:install duxphp/duxravel-article
 ```
 
 ## 文章列表
