@@ -18,9 +18,13 @@
   - [表单组件](/form/)
   - [表单布局](/form/layout)
   - [表单元素](/form/el)
-
+  - [通用组件](/ui/util)
+  
 - 指南
   - [开发说明](/dev/base)
   - [项目部署](/guide/helper)
   - [应用打包](/guide/package)
 
+- 扩展应用
+  - [CMS 应用](/extend/cms)
+  - [文章应用](/extend/article)
