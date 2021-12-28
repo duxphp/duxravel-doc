@@ -6,6 +6,7 @@ inputs:
     src: ./src
     hook: yarn build
     dist: ./build
+    error: 404.html
   bucketName: duxphp
   protocol: https
   hosts:

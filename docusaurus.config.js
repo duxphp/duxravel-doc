@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Duxravel',
+  title: 'Duxravel 后台开发框架',
   tagline: '基于 Laravel 驱动的开源后台管理开发框架',
   url: 'https://www.duxravel.com',
   baseUrl: '/',
@@ -14,6 +14,7 @@ module.exports = {
   projectName: 'duxravel', // Usually your repo name.
   trailingSlash: false,
   themeConfig: {
+    
     colorMode: {
       switchConfig: {
         darkIconStyle: {
@@ -94,6 +95,11 @@ module.exports = {
         {to: '/blog/about', label: '关于我们', position: 'left'},
         {to: '/blog/group', label: '加入讨论', position: 'left'},
         {
+          href: 'https://gitee.com/duxphp/duxravel',
+          label: 'Gitee',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/duxphp/duxravel',
           label: 'Github',
           position: 'right',
@@ -105,6 +111,10 @@ module.exports = {
       darkTheme: darkCodeTheme,
       additionalLanguages: ['php'],
     },
+    // algolia: {
+    //   apiKey: '',
+    //   contextualSearch: true,
+    // },
   },
   presets: [
     [

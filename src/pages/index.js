@@ -16,7 +16,7 @@ function HomePageWelcome() {
     <div>
       <header className={styles.heroBanner}>
         <div className="container">
-          <h1 className={clsx('hero__title heading ', styles.title)}>{siteConfig.title}</h1>
+          <h1 className={clsx('hero__title heading ', styles.title)}>Duxravel</h1>
           <p className={clsx('hero__subtitle text', styles.subtitle)}>{siteConfig.tagline}</p>
           <ButtonLinks className={styles.buttons} />
           <Npx />
