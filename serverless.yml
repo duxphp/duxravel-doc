@@ -1,0 +1,17 @@
+component: website
+name: duxravvel-web
+app: duxravel
+inputs:
+  src:
+    src: ./src
+    hook: yarn build
+    dist: ./build
+  bucketName: duxphp
+  protocol: https
+  customDomains:
+     - domain: www.duxravel.com
+       # 如要添加 https，需先行在腾讯云 - SSL 证书进行认证获取 cettificateId
+       certificateId: sW9iyZUc
+       protocols:
+         - http
+         - https
