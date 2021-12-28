@@ -92,6 +92,7 @@ module.exports = {
         },
         {to: '/blog/update-log', label: '更新记录', position: 'left'},
         {to: '/blog/about', label: '关于我们', position: 'left'},
+        {to: '/blog/group', label: '加入讨论', position: 'left'},
         {
           href: 'https://github.com/duxphp/duxravel',
           label: 'Github',
