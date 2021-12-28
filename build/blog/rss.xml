@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Duxravel Blog</title>
+        <link>https://www.duxravel.com/blog</link>
+        <description>Duxravel Blog</description>
+        <lastBuildDate>Tue, 28 Dec 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[关于我们]]></title>
+            <link>https://www.duxravel.com/blog/about</link>
+            <guid>about</guid>
+            <pubDate>Tue, 28 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[我是一个开源作者，入行设计与前后端十多年，专注于架构，开源，等领域的技术研究。]]></description>
+            <content:encoded><![CDATA[<p>我是一个开源作者，入行设计与前后端十多年，专注于架构，开源，等领域的技术研究。</p><p>我建立了 DuxPHP 组织并且现有多个公司内部成员加入，之前开源的产品有 DlCMS、DuxPHP、DuxCMS、DuxShop 等系列产品，我们将会继续提供免费好用的代码分享给大家。</p><p>Duxravel 是我们最近的一个开源项目，且会成为长期维护产品 (随 laravel 版本更新)，有能力的希望大家能一块添砖加瓦，如果喜欢这个项目，请在Github上为我这个项目点上star，希望能得到你的支持和鼓励！</p><p>Github仓库：<a href="https://github.com/duxphp/duxravel">https://github.com/duxphp/duxravel</a></p><p>您可以通过赞助的形式请我们喝杯咖啡，我们将定期更新赞助名单与金额。</p><table><thead><tr><th>赞助者</th><th>金额</th></tr></thead><tbody><tr><td>土哥</td><td>88.00</td></tr></tbody></table><p><img src="./alipay.jpg" alt="alipay"/></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[更新记录]]></title>
+            <link>https://www.duxravel.com/blog/update-log</link>
+            <guid>update-log</guid>
+            <pubDate>Tue, 28 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[暂未发布版本]]></description>
+            <content:encoded><![CDATA[<p>:::note v1.0.0</p><p>暂未发布版本</p><p>:::</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

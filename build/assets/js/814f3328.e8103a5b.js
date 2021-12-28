@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkorca_docs=self.webpackChunkorca_docs||[]).push([[631],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u5173\u4e8e\u6211\u4eec","permalink":"/blog/about"},{"title":"\u66f4\u65b0\u8bb0\u5f55","permalink":"/blog/update-log"}]}')}}]);
