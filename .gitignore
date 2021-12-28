@@ -2,13 +2,14 @@
 /node_modules
 
 # Production
+/build
 
 # Generated files
 .docusaurus
 .cache-loader
 
 # Misc
-/.idea
+.idea
 .DS_Store
 .env.local
 .env.development.local
