@@ -14,9 +14,11 @@ CMS 提供了基本的 Web 站点功能，同时提供了自定义菜单、内�
 composer require duxphp/duxravel-cms
 // 开发版
 composer require duxphp/duxravel-cms dev-main
+```
 
-// 执行安装
-php artisan app:install duxphp/duxravel-cms
+如果自动安装失败请手动安装数据
+```bash
+php artisan app:install duxphp/duxravel-article
 ```
 
 ## 模板功能

@@ -14,9 +14,11 @@ Article 提供了基本的文章管理功能，改应用依赖于 `duxravel-cms`
 composer require duxphp/duxravel-article
 // 开发版
 composer require duxphp/duxravel-article dev-main
+```
 
-// 执行安装
-php artisan app:install duxphp/duxravel-cms
+如果自动安装失败请手动安装数据
+```bash
+php artisan app:install duxphp/duxravel-article
 ```
 
 ## 文章列表
