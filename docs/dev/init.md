@@ -3,10 +3,9 @@ sidebar_position: 1
 title: 第一个应用
 ---
 
-## 应用说明
-
+:::info 应用说明
 项目中的应用均放置在 `modules` 目录中，每个应用均由 MVC 结构构成，我们推荐使用脚手架命令生成对应的功能。
-
+:::
 ## 应用生成
 
 执行以下命令可生成一个基础的应用结构 `blog` 为应用名
@@ -60,15 +59,10 @@ php artisan app:make-model blog --table=blog --key=blog_id
 
 ## 指定控制器模型
 
-打开应用的后台控制器文件 `Blog/Admin/Test.php` 修改对应的模型类为当前生成的模型类，将：
+打开后台控制器文件修改对应的模型类为当前生成的模型类，将模型进行替换：
 
-```php
-public string $model = \Duxravel\Core\Model\Base::class;
-```
-
-替换为
-
-```php
+```php title="modules/Blog/Admin/Test.php"
+// public string $model = \Duxravel\Core\Model\Base::class;
 public string $model = \Modules\Blog\Model\Blog::class;
 ```
 

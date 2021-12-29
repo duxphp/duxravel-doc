@@ -3,8 +3,6 @@ sidebar_position: 20
 title: 通用组件
 ---
 
-## 使用方法
-
 独立组件可以嵌套使用也可以在表格、表单组件内进行使用，组件支持通用方法如下，组件内方法请使用回调处理
 
 ```php
@@ -22,7 +20,7 @@ $widget->class('class');
 $node = \Duxravel\Core\UI\Widget::icon('cog', function(\Duxravel\Core\UI\Widget\Icon $icon) {
 });
 // 独立渲染
-$html = (new \Duxravel\Core\UI\Widget\Icon('fa fa-cog'))->->tooltips('提示内容', 'top')->render();
+$html = (new \Duxravel\Core\UI\Widget\Icon('fa fa-cog'))->tooltips('提示内容', 'top')->render();
 ```
 
 ## 网格布局
@@ -117,7 +115,9 @@ $html = \Duxravel\Core\UI\Widget::link('链接文字', 'admin.index', ['a' => 1,
 
 ## 更多组件
 
+:::tip 提醒
 您可以采用在可嵌入组件的数组中直接嵌入 arco.resign 中的任意组件和html，系统支持在 node 模式下编写自定义组件。
+:::
 
 ```php
 return [

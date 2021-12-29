@@ -8,7 +8,10 @@ duxravel，名称由 dux 与 laravel 组合而来，是一款以 laravel 框架�
 
 ## 安装项目
 
+:::caution 环境要求
+
 请先确保预安装  PHP 7.4+ 、 Composer 2.*与 Mysql 5.6+ 环境
+:::
 
 ```bash
 // 创建项目目录
@@ -39,7 +42,7 @@ php artisan serve
 composer update
 ```
 
-执行包更新命令后执行以下命令升级数据库
+如果数据库结构未自动同步可以执行以下命令同步
 
 ```
 php artisan migrate

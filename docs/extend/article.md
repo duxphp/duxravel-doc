@@ -3,10 +3,9 @@ sidebar_position: 2
 title: 文章应用
 ---
 
-## 应用说明
-
+:::tip 说明
 Article 提供了基本的文章管理功能，该应用依赖于 `duxravel-cms` 应用，使用前请先安装依赖应用。
-
+:::
 ## 安装方法
 
 ```bash

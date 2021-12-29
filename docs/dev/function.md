@@ -7,9 +7,13 @@ title: 常用函数
 
 当执行一个行为成功后需要给外部通知消息。
 
-该方法会自动判断是否 `异步请求`，如果非异步请求则跳转到一个成功跳转页面。
+:::tip 提醒
+该方法 url 跳转只能用于系统内部路由跳转，由前端进行异步加载跳转页面。
 
 成功与失败消息均基于 [laravel-response](https://github.com/Jiannei/laravel-response) 做封装
+:::
+
+
 
 ```php
 /**
@@ -52,8 +56,6 @@ return app_success(string $msg = '', array $data = [], string $url = '', int $co
 ## 错误消息
 
 当执行一个行为失败后需要给外部通知消息，该消息无需返回会自动中断后续进程。
-
-该方法会自动判断是否 `异步请求`，如果非异步请求则跳转到一个失败跳转页面。
 
 ```php
 /**
@@ -159,8 +161,10 @@ file_class($file);
 ```
 
 ## 更多函数
+:::tip 提醒
+系统内的函数存放在 `duxravel-app` 包中，可以查看以下函数文件了解具体实现。
+:::
 
-系统内的函数存放在 `duxravel-app`包中，可以查看以下函数文件了解具体实现。
 
 ```
 vendor/duxphp/duxravel-app/src/core/Util/Function.php

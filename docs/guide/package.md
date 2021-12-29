@@ -3,8 +3,6 @@ sidebar_position: 3
 title: 应用打包
 ---
 
-## 基本说明
-
 目前开发的应用可以提交在 [packagist](https://packagist.org/) 中，应用如果要进行打包安装分为 2 种形式：
 
 - 应用打包 - 使用 `composer` 自定义 `type` 类型。

@@ -3,9 +3,9 @@ sidebar_position: 3
 title: 数据模型 (model 层)
 ---
 
-## 模型说明
-
+:::tip 模型说明
 数据模型主要继承 laravel 的 [Eloquent](https://learnku.com/docs/laravel/8.x/eloquent/9406)，并在此基础上增加了一些扩展方法。
+:::
 
 ## 模型生成
 

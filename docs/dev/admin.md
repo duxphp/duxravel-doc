@@ -3,9 +3,12 @@ sidebar_position: 2
 title: 后台控制器 (admin 层)
 ---
 
+
 ## 控制器生成
 
+:::tip 命令说明
 为了规范化开发，后台控制器默认存放在应用目录下 `Admin` 目录，请使用以下命令生成基本控制器，`test` 为应用的名称。
+:::
 
 ```shell
 $ php artisan app:make-admin test
@@ -13,9 +16,9 @@ $ php artisan app:make-admin test
 
 控制基础示例代码如下：
 
-```php
+```php title="modules/Blog/Admin/Test.php"
 <?php
-namespace Modules\Test\Admin;
+namespace Modules\Blog\Admin;
 
 use Duxravel\Core\UI\Form;
 use Duxravel\Core\UI\Table;
@@ -23,7 +26,7 @@ use Duxravel\Core\UI\Table;
 class Test extends \Modules\System\Admin\Expend
 {
 
-    public string $model = \Modules\Test\Model\Test::class;
+    public string $model = \Modules\Blog\Model\Test::class;
 
     protected function table(): Table
     {
