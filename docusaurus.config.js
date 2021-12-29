@@ -111,10 +111,12 @@ module.exports = {
       darkTheme: darkCodeTheme,
       additionalLanguages: ['php'],
     },
-    // algolia: {
-    //   apiKey: '',
-    //   contextualSearch: true,
-    // },
+    algolia: {
+      appId: 'QJNTFL07ZW',
+      apiKey: 'cd3982bf8c6e9581f61840d8a66ef49c',
+      indexName: 'duxravel',
+      contextualSearch: true,
+    },
   },
   presets: [
     [
