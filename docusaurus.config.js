@@ -89,7 +89,7 @@ module.exports = {
           type: 'doc',
           docId: 'start',
           position: 'left',
-          label: '文档',
+          label: '阅读文档',
         },
         {to: '/blog/update-log', label: '更新记录', position: 'left'},
         {to: '/blog/about', label: '关于我们', position: 'left'},
