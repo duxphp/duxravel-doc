@@ -6,7 +6,7 @@ import styles from './ButtonLinks.module.css';
 export default function ButtonLinks({ className }) {
   return (
     <div className={className}>
-      <Link className={clsx(styles.link, styles.linkBlack)} href="/docs/start">
+      <Link className={clsx(styles.link, styles.linkBlack)} href="/docs">
         快速开始
       </Link>
       {'\u00A0'}

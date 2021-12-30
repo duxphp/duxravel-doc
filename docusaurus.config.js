@@ -32,7 +32,7 @@ module.exports = {
           items: [
             {
               label: '安装方式',
-              to: 'docs/start',
+              to: 'docs',
             },
             {
               label: '开发应用',

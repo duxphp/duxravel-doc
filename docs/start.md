@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: 快速开始
+slug: /
 ---
 
 duxravel，名称由 dux 与 laravel 组合而来，是一款以 laravel 框架为基础的开源后台管理系统，您可以以它为基础开发任意网站、API接口、内部管理系统等 web 应用。
