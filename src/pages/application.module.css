@@ -3,6 +3,18 @@
   grid-template-columns: repeat(4, minmax(0, 1fr))
 }
 
+@media screen and (max-width: 1024px) {
+  .application {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .application {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
 .applicationModule {
   padding: 1rem;
 }
@@ -21,6 +33,12 @@
     color: #000;
 }
 
+
+html[data-theme='dark'] .applicationItem {
+  background-color: var(--background-light);
+  color: rgba(255,255,255, .5);
+}
+
 .applicationImage {
   padding: 1rem 1rem;
   display: flex;
@@ -35,7 +53,6 @@
 .applicationImage:hover {
   text-decoration: none;
   color: rgba(255,255,255, .8);
-
 }
 
 .applicationTitle {
@@ -46,6 +63,11 @@
 .applicationTitle a {
   color: #000;
   font-weight: bold;
+}
+
+html[data-theme='dark'] .applicationTitle a {
+
+  color: rgba(255,255,255, .8);
 }
 
 .applicationDesc {
