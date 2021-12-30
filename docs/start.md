@@ -15,14 +15,14 @@ duxravel，名称由 dux 与 laravel 组合而来，是一款以 laravel 框架�
 :::
 
 ```bash
-// 创建项目目录
-mkdir project && cd project
+// 定向到站点目录
+cd sites
 
 // 通过 duxravel 创建项目 (稳定版)
-composer create-project duxphp/duxravel ./
+composer create-project duxphp/duxravel
 
 // 通过 duxravel 创建项目 (dev版)
-composer create-project duxphp/duxravel ./ --stability=dev
+composer create-project duxphp/duxravel -stability=dev
 ```
 
 ## 本地预览
