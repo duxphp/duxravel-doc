@@ -1,0 +1,106 @@
+.application {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr))
+}
+
+.applicationModule {
+  padding: 1rem;
+}
+
+.applicationItem {
+  position: relative;
+    background-repeat: no-repeat !important;
+    background-color: var(--border-light);
+    border-radius: 26px;
+    overflow: hidden;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    color: #000;
+}
+
+.applicationImage {
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 150%;
+  height: 150px;
+  text-decoration: none;
+}
+
+.applicationImage:hover {
+  text-decoration: none;
+  color: rgba(255,255,255, .8);
+
+}
+
+.applicationTitle {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.applicationTitle a {
+  color: #000;
+  font-weight: bold;
+}
+
+.applicationDesc {
+ font-size: 14px;
+ color: #666;
+ padding: 10px;
+ padding-top: 0;
+ height: 55px;
+ overflow: hidden;
+}
+
+.applicationFoot {
+  display: flex;
+  padding: 1em;
+  font-size: 12px;;
+}
+
+.applicationFootLeft {
+  flex: 1;
+  display: flex;
+  grid-column-gap: 10px;
+
+}
+
+.applicationFootLeft span {
+  border-radius: 10px;
+  background-color: #FF7D00;
+  padding: 5px;
+  height: 23px;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.applicationFootRight {
+  flex:none;
+  display: flex;
+  grid-column-gap: 10px;
+}
+
+
+.applicationFootRight span,.applicationFootRight a {
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: rgba(0,0,0, .8);
+  padding: 5px;
+  height: 23px;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.applicationFootRight span:hover,.applicationFootRight a:hover {
+  background-color: #1E5EFF;
+}

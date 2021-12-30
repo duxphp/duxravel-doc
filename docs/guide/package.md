@@ -187,3 +187,8 @@ $ php artisan db:seed --class=\\Modules\\Article\\Seeders\\ArticleTableSeeder
 $ php artisan app:install test
 $ composer run-script post-autoload-dump
 ```
+
+
+## 应用上架
+
+请将您应用的仓库地址与 packagist 地址发送至邮箱: admin@duxphp.com，我们审核后上架至应用中心。

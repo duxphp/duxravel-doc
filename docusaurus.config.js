@@ -92,6 +92,7 @@ module.exports = {
           label: '阅读文档',
         },
         {to: '/blog/update-log', label: '更新记录', position: 'left'},
+        {to: '/application', label: '应用中心', position: 'left'},
         {to: '/blog/about', label: '关于我们', position: 'left'},
         {to: '/blog/group', label: '加入讨论', position: 'left'},
         {
