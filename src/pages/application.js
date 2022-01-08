@@ -30,7 +30,7 @@ const AppList = [
 
     {
         name: 'Duxravel Member',
-        title: 'Duxravel 文章管理应用',
+        title: 'Duxravel 会员中心应用',
         description: '提供基础会员信息、等级管理功能与相关 api 与鉴权。',
         author: 'duxphp',
         color: '#FF7D00',
