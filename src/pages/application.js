@@ -27,6 +27,17 @@ const AppList = [
         exec: 'composer require duxphp/duxravel-article'
     },
 
+
+    {
+        name: 'Duxravel Member',
+        title: 'Duxravel 文章管理应用',
+        description: '提供基础会员信息、等级管理功能与相关 api 与鉴权。',
+        author: 'duxphp',
+        color: '#FF7D00',
+        url: '/docs/extend/member',
+        lib: 'https://github.com/duxphp/duxravel-member',
+        exec: 'composer require duxphp/duxravel-member'
+    },
 ];
 
 
