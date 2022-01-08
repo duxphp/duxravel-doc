@@ -93,7 +93,20 @@ $this->assign($name, $value);
 return $this->systemView(string $tpl = '');
 ```
 
-### 弹窗节点
+### 系统视图（前端节点）
+
+该方法为弹窗使用的前端节点方法
+
+```php
+/**
+ * 系统视图
+ * @param string $title
+ * @param array  $node
+ */
+return $this->systemNode(string $title = '', array $node = [])
+```
+
+### 弹窗视图 (前端节点)
 
 该方法为弹窗使用的前端节点方法
 

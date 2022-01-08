@@ -162,3 +162,15 @@ $column->link('删除', 'admin.demo.test.del', ['id' => 'test_id'])->type('ajax'
 // js参数链接，将参数的数组值使用 `{}`包裹来进行原生 js 数据获取。
 $column->link('编辑', 'admin.demo.test.page', ['id' => '{rowData.record.id}']);
 ```
+
+## 自定义 Html 节点
+
+使用 Html 节点可以将该列内容进行自定义 Html 输出，子节点可以使用 `rowData` 变量代表当前行数据，更多使用方法请参考文档 (html 节点)。
+
+```php
+$table->column('自定义', 'name')->node([
+    'nodeName' => 'div',
+    'class' => 'text-red-600',
+    'child' => '{{rowData.name}}'
+]);
+```
