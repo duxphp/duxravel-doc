@@ -22,7 +22,7 @@ cd sites
 composer create-project duxphp/duxravel
 
 // 通过 duxravel 创建项目 (dev版)
-composer create-project duxphp/duxravel -stability=dev
+composer create-project duxphp/duxravel --stability=dev
 ```
 
 ## 本地预览
