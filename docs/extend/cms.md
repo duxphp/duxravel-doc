@@ -245,7 +245,7 @@ php artisan app:install duxphp/duxravel-article
 
 ```html
 @form()
-<div>{{ $item->name }}</div>
+<div>{{ $item['data']['name'] }}</div>
 @endform
 ```
 
@@ -259,7 +259,7 @@ php artisan app:install duxphp/duxravel-article
 
 ```html
 @form(['参数1' => 参数值2, '参数2' => 参数值2])
-<li>{{$item->title}}</li>
+<li>{{$item['data']['title']}}</li>
 @endform
 ```
 
